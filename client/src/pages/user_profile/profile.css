@@ -1,0 +1,120 @@
+.profile-container {
+    background-color: rgb(255, 255, 255);
+    width: 57%;
+    min-height: 100vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Mukta';
+    padding: 0 50px;
+}
+.img-circular {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.user-profile-img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+.user-name {
+    margin-top: 16px;
+    font-size: 27px;
+}
+.about-user {
+    font-size: 15px;
+    color: rgb(109, 109, 109);
+    margin: 0px 50px 20px 50px;
+}
+.user-info {
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.user-posts {
+    text-align: center;
+}
+.my-posts-title {
+    font-size: 25px;
+    padding: 10px;
+}
+.fa,
+.fa-edit {
+    font-size: 27px;
+    color: rgb(27, 167, 97);
+}
+.btn-edit {
+    border: none;
+    background-color: transparent;
+    float: right;
+}
+.btn-edit:focus {
+    outline: none;
+}
+.btn-upload-img {
+    display: block;
+}
+.inline {
+    display: block;
+    text-align: center;
+}
+.btn-update {
+    margin-right: 10px;
+}
+.update-photo{
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.img-circular:hover .user-profile-img {
+    cursor: pointer;
+    opacity: 0.4;
+    width: 230px;
+}
+.middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.img-circular:hover .middle {
+    opacity: 1;
+}
+body{
+    background-color:rgb(72, 99, 129);
+}
+.btn-update-photo-success{
+    margin: 0 10px;
+}
+.input-profile-text{
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.btn-follow-user{
+    border: none;
+    color: white;
+    width: 120px;
+    margin: 1px 10px;
+    border-radius: 16px;
+    padding: 5px 15px;
+}
+.hr {
+    margin: 20px 0;
+}

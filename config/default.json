@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://marina123:marina123@tmcluster-0sn6x.mongodb.net/social_network?retryWrites=true&w=majority",
+    "jwtSecret": "my_jwt_secret"
+}

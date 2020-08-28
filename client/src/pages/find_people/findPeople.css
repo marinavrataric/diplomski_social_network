@@ -1,0 +1,66 @@
+.user-container {
+    width: 600px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user-card {
+    width: 550px;
+    height: 185px;
+    background-color: rgb(241, 241, 241);
+    margin: 30px 0;
+    border-radius: 40px;
+    padding: 10px;
+}
+.user-info2 {
+    text-align: center;
+    font-size: 22px;
+}
+.left {
+    float: left;
+}
+.right {
+    text-align: center;
+    margin-top: 6%;
+}
+.circular {
+    position: relative;
+    width: 165px;
+    height: 165px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.title-users {
+    text-align: center;
+    margin: 30px 0 50px 0;
+    font-size: 37px;
+    font-family: 'Mukta';
+}
+.btn-name {
+    color: white;
+    margin: 0;
+}
+.btn-find{
+    width: 120px;
+}
+.searchbox{
+    width: 550px;
+    margin-top: 30px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.center {
+    width: 550px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

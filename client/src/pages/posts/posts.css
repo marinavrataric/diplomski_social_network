@@ -1,0 +1,26 @@
+.center-post-div{
+    width: 50%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+}
+.all-posts{
+    padding: 10px 0;
+}
+.title-post{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+.input-post-text{
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+.write-post-title{
+    color: white;
+}

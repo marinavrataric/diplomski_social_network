@@ -1,0 +1,175 @@
+.single-post-container {
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(238, 238, 238);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: left;
+    margin: 10px 0;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-family: 'Mukta';
+    display: flex;
+    flex-flow: column;
+}
+.btn {
+    border: none;
+    margin: 0;
+}
+.btn:focus {
+    outline: none;
+}
+.fa-remove {
+    color: red;
+}
+.row-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-align-user {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-align-user {
+    display: flex;
+    flex-direction: row;
+}
+.option-left{
+
+}
+.option-right{
+
+}
+.user-name-photo {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+width: auto;
+}
+
+.number-of-likes {
+    display: inline-block;
+    margin: 0;
+    margin-right: 6px;
+    padding-bottom: 10px;
+}
+.buttons {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+hr {
+    margin: 0;
+}
+.text-comment {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.btn-delete {
+    padding: 0;
+}
+.user-photo-mini {
+    width: 100%;
+    height: auto;
+}
+.img-circular-mini {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    float: left;
+}
+
+.user-name-post {
+    font-size: 15px;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 800;
+}
+.right-user-name-post {
+    margin-right: 40px;
+    margin-top: 5px;
+}
+.post-time {
+    margin: 0;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.user-post-text {
+    margin: 20px;
+    margin-top: 10px;
+    font-size: 23px;
+    margin-left: 30px;
+    display: flexbox;
+}
+.btn-like {
+    padding: 0;
+}
+.number-of-likes {
+    font-size: 14px;
+}
+.btn-comment {
+    margin-left: 25px;
+    border: none;
+    border-bottom: 1px black solid;
+    background-color: transparent;
+    font-size: 14px;
+}
+.btn-comment:focus {
+    outline: none;
+}
+.comment-container {
+    background-color: rgba(214, 214, 214, 0.664);
+    margin: 10px 0;
+    
+    border-radius: 20px;
+}
+.text-comment-input {
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.img-comment-circular-mini {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    float: left;
+}
+.comment {
+    font-size: 15px;
+    padding: 4px;
+    display: flex;
+    margin: 0;
+}
+.text-bold {
+    font-weight: 800;
+    float: left;
+    padding: 4px;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 15px;
+}
+.bt {
+    border: none;
+    background-color: transparent;
+}
+.div-comment-delete {
+    float: right;
+    margin-top: -29px;
+    padding-right: 5px;
+}
+.dropdown{
+    display: inline;
+}

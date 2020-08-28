@@ -1,0 +1,64 @@
+.center-div{
+    width: 390px;
+    height: 130px;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+    margin: auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.title{
+    font-size: 55px;
+}
+.buttons{
+    padding: 10px;
+}
+.btn-signin{
+    margin: 10px 12px;
+    width: 130px;
+    font-size: 19px;
+    font-weight: 500;
+    border: none;
+    background: rgba(255, 255, 255, 0.301);
+    border: 2px solid  rgb(46, 46, 46);
+    border-radius: 9px;
+    padding: 7px 16px;
+}
+.btn-signin:hover{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+.btn-signin:focus{
+    outline: none;
+}
+.btn-signup{
+    margin: 10px 12px;
+    width: 130px;
+    font-size: 19px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(36, 36, 36);
+    color: white;    
+    border: 2px solid  rgb(46, 46, 46);
+    border-radius: 9px;
+    padding: 7px 16px;
+}
+.btn-signup:hover{
+    background: rgba(255, 255, 255, 0.301);    
+    color: white;
+}
+.btn-signup:focus{
+    outline: none;
+}
+body {
+    width: 100%;
+    height:100vh;
+    background-image: url('../../assets/background2.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
