@@ -22,6 +22,7 @@ function Register({ toggle }: any) {
         Axios.post('/api/users', user, configWithoutToken)
             .then((res) => {
                 window.alert('User successfully created! Proceed to login.');
+                toggle(false)
             })
             .catch((err) => {
                 setErrorMsg(err.response.data.msg);

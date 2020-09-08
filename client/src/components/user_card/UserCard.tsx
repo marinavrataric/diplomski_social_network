@@ -35,6 +35,7 @@ function UserCard({ user }: UseCardProps) {
                             Follow
                         </Button>
                     )}{' '}
+                    {currentUser && user.followers.includes(currentUser) && 
                     <Button color="info" className="btn-find">
                         <Link
                             to={{
@@ -45,7 +46,7 @@ function UserCard({ user }: UseCardProps) {
                         >
                             <p className="btn-name">View Profile</p>
                         </Link>
-                    </Button>
+                    </Button>}
                 </div>
             </div>
         </div>
