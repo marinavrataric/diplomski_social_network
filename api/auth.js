@@ -76,6 +76,7 @@ router.get('/user', auth, (req, res) => {
 router.get('/users', auth, (req, res) => {
     User
         .find()
+        .select('-password')
         .sort({ registration_date: -1 })
         .then(user => res.json(user))
 })
